@@ -1,0 +1,85 @@
+{
+	"folders": [
+		{
+			"name": "FirstTouch",
+			"path": "first_touch"
+		},
+		{
+			"name": "Rectangle",
+			"path": "rectangle"
+		},
+		{
+			"name": "Vector",
+			"path": "vector"
+		},
+		{
+			"name": "StringVector",
+			"path": "vector_strings"
+		},
+		{
+			"name": "SimpleClass",
+			"path": "simple_class"
+		},
+		{
+			"name": "DogClass",
+			"path": "dog_class"
+		},
+		{
+			"name": "BankAccount",
+			"path": "bank_account"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp",
+			"array": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp",
+			"string_view": "cpp",
+			"initializer_list": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"atomic": "cpp",
+			"cctype": "cpp",
+			"chrono": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"exception": "cpp",
+			"algorithm": "cpp",
+			"functional": "cpp",
+			"iterator": "cpp",
+			"memory": "cpp",
+			"memory_resource": "cpp",
+			"numeric": "cpp",
+			"optional": "cpp",
+			"random": "cpp",
+			"ratio": "cpp",
+			"system_error": "cpp",
+			"utility": "cpp",
+			"fstream": "cpp",
+			"iosfwd": "cpp",
+			"iostream": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"typeinfo": "cpp",
+			"variant": "cpp"
+		}
+	}
+}

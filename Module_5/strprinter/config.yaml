@@ -1,0 +1,23 @@
+---
+title: StrPrinter
+view_type: access.types.stdasync.acceptFiles
+files:
+  - field: file1
+    name: diagonal_printer.cpp
+  - field: file2
+    name: diagonal_printer.hpp
+  - field: file3
+    name: printers.cpp
+  - field: file4
+    name: printers.hpp
+  - field: file5
+    name: standard_printer.cpp
+  - field: file6
+    name: standard_printer.hpp
+  - field: file7
+    name: string_printer.hpp
+
+container:
+  image: lainets/grade-c:8.3-1.0-3.4u5
+  mount: _exercises/Module_5/strprinter/test
+  cmd: /entrypoint/run.py

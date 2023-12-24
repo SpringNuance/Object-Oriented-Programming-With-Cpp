@@ -1,0 +1,60 @@
+Run the project in Ubuntu Virtual
+To run the game:
+1. Have Linux
+2. Unzip the files DungeonCrawler
+3. Open terminal and open the out folder by "cd out"
+4. run command "chmod +x DungeonCrawler"
+5. Run "./DungeonCrawler"
+
+mkdir M01
+cd M01
+
+git log --graph --all --format=format:"(%h) %ci <%ce>%n%s"
+wget --no-check-certificate https://grader.cs.aalto.fi/static/ELEC-A7151_2021/_downloads/127db52f4e53950b93c11d4c5c73d4e2/Module_1.zip
+https://www.aalto.fi/en/department-of-computer-science/teaching-assistants-for-computer-science-courses-spring-2021
+
+git clone https://version.aalto.fi/gitlab/cpp-autumun-2021/dungeon-crawler/dungeon-crawler-group-3.git
+cmake -S .. -B .
+make
+./out/DungeonCrawler
+
+unzip Module_1.zip
+
+
+Hint
+
+You can use list command ls to see the content of the current directory.
+
+Change to that folder, and then start Visual Studio Code.
+
+cd Module_1
+code Module_1.code-workspace
+
+
+----
+wsl: to open Linux WSL
+cd ~ 
+sudo apt install valgrind: to install valgrind
+which valgrind: check valgrind
+valgrind --trace-children=yes --leak-check=full --show-leak-kinds=all ./main
+mkdir temp
+cd temp
+touch project.c
+vim project.c
+gcc -c -std=c99 -g -Wall -Wextra -Wno-missing-field-initializers project.c -o project.o
+ls
+g++ project.o -o project
+ls
+./project
+valgrind --trace-origins=yes --leak-check=full --show-leak-kinds=all ./project
+
+
+[Yesterday 11.01] Jukkala Essi
+    Special supports == and != so you should not have any problems with that
+​[Yesterday 11.02] Jukkala Essi
+
+
+find_package(SFML 2.5 COMPONENTS audio graphics window system REQUIRED)
+target_link_libraries(DungeonCrawler sfml-audio sfml-graphics sfml-window sfml-system)
+target_include_directories(DungeonCrawler PUBLIC ${HEADER_FILES})
+    You could try with the default copy and copy assignment operators, they should work here too

@@ -1,0 +1,25 @@
+---
+title: Dragons
+view_type: access.types.stdasync.acceptFiles
+files:
+  - field: file1
+    name: dragon_cave.cpp
+  - field: file2
+    name: dragon_cave.hpp
+  - field: file3
+    name: dragon.cpp
+  - field: file4
+    name: dragon.hpp
+  - field: file5
+    name: fantasy_dragon.cpp
+  - field: file6
+    name: fantasy_dragon.hpp
+  - field: file7
+    name: magic_dragon.cpp
+  - field: file8
+    name: magic_dragon.hpp
+
+container:
+  image: lainets/grade-c:8.3-1.0-3.4u5
+  mount: _exercises/Module_3/dragons
+  cmd: /entrypoint/run.py

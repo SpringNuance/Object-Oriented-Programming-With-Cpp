@@ -1,0 +1,17 @@
+---
+title: Custom exception
+view_type: access.types.stdasync.acceptFiles
+files:
+  - field: file1
+    name: restricted_interface.hpp
+  - field: file2
+    name: restricted_ptr_ex.hpp
+  - field: file3
+    name: restricted_ptr.hpp
+  - field: file4
+    name: restricted_ref_counter.hpp
+
+container:
+  image: lainets/grade-c:8.3-1.0-3.4u5
+  mount: _exercises/Module_5/custom_exception/test
+  cmd: /entrypoint/run.py

@@ -1,0 +1,7 @@
+max_points: 15
+penalties:
+    warning: 0.5
+valgrind: false
+testsource: test/test_source.cpp
+includedirs: src
+CFLAGS+: "-Dmain(...)=main_(__VA_ARGS__)"

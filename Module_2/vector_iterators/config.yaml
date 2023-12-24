@@ -1,0 +1,11 @@
+---
+title: Vector iterators
+view_type: access.types.stdasync.acceptFiles
+files:
+  - field: file1
+    name: vector_it.cpp
+
+container:
+  image: lainets/grade-c:8.3-1.0-3.4u5
+  mount: _exercises/Module_2/vector_iterators
+  cmd: /entrypoint/run.py

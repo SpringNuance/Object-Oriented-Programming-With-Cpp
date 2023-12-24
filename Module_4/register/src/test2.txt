@@ -1,0 +1,3 @@
+A;G_BOAC;British Airways;Concorde SST;80.8;2000
+A;RU-123;Russian Federation;MiG-21;80.8;1600
+B;FI123;Pekka Purjehtija;Mariella;0;1.8

@@ -1,0 +1,11 @@
+---
+title: Triple
+view_type: access.types.stdasync.acceptFiles
+files:
+  - field: file1
+    name: triple.hpp
+
+container:
+  image: lainets/grade-c:8.3-1.0-3.4u5
+  mount: _exercises/Module_5/triple/test
+  cmd: /entrypoint/run.py
